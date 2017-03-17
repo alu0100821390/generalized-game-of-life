@@ -1,6 +1,6 @@
 # Algoritmos y Estructuras de Datos Avanzadas
 
-## Práctica 2: El Juego de la Vida Generalizado
+## Práctica 2: El Juego de la Vida Generalizado (modificación)
 
 ### Objetivo
 
@@ -35,12 +35,13 @@ Mediante herencia de una clase base Celula, se definen los distintos tipos de c�
 * Célula A: 23/3
 * Célula B: 34/34
 * Célula C: 51/346
+* Célula D: 345/35
 
-La regla de nacimiento, que sólo se aplica sobre las células muertas de la clase base, dará prioridad a la creación de células en el orden: A, B, C.
+La regla de nacimiento, que sólo se aplica sobre las células muertas de la clase base, dará prioridad a la creación de células en el orden: A, B, C, D.
 
 La regla de supervivencia, que es distinta para cada tipo de célula, será implementada mediante polimorfismo en cada tipo de célula.
 
-Cada tipo de célula se visualiza utilizando un carácter distinto (A, B, C). Mientras que las casillas que se corresponden con células muertas si visualizan con el carácter blanco ' '.
+Cada tipo de célula se visualiza utilizando un carácter distinto (A, B, C, D). Mientras que las casillas que se corresponden con células muertas si visualizan con el carácter blanco ' '.
 
 ### Compilación
 
